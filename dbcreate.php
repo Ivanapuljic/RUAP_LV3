@@ -1,12 +1,9 @@
 <?php
  $host = "ipuljic-mysqldbserver.mysql.database.azure.com";
  $user = "mysqldbuser@ipuljic-mysqldbserver";
- $pwd = "dora1306";
+ $pwd = "Dora1306";
  $db = "ruaplv3";
- // $host = "127.0.0.1:52932";
- // $user = "azure";
- // $pwd = "6#vWHD_$";
- // $db = "localdb";
+
  $conn = mysqli_connect($host,$user,$pwd);
   // Check connection
  if (mysqli_connect_errno())
